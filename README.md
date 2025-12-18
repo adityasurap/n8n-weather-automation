@@ -3,7 +3,7 @@
 ## Overview
 This repository contains an n8n workflow that automates daily weather reporting. The workflow fetches real-time data for a specific city, which is San Diego, CA in this case, evaluates weather conditions against custom alert logic (Heat, Frost, Precipitation), logs the historical data to a Supabase database, and sends a formatted email summary.
 
-![Workflow Screenshot](workflow-screenshot.png)
+![Workflow Screenshot](workflow_screenshot.png)
 
 ## Features
 * **Cron Trigger:** Runs automatically every day at 8:00 AM.
